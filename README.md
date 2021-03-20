@@ -32,3 +32,5 @@ GetBv.zip是打包的程序。
 <img src="https://img-blog.csdnimg.cn/20210320124650902.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NhaXFpdWRhbg==,size_1,color_FFFFFF,t_70" style="zoom:50%" />
 按提示输入视频BV号
 <img src="https://img-blog.csdnimg.cn/20210320125251760.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NhaXFpdWRhbg==,size_1,color_FFFFFF,t_70" style="zoom:50%" />
+<img src="https://img-blog.csdnimg.cn/20210320125826490.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0NhaXFpdWRhbg==,size_1,color_FFFFFF,t_70" style="zoom:50%" />
+
