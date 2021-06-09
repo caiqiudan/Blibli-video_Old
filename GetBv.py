@@ -1,7 +1,6 @@
 import requests
 from parsel import Selector
-import json
-import os
+import json, os, re
 
 
 class GetBv():
@@ -48,6 +47,7 @@ class GetBv():
             
         # 创建文件夹
         file_name = video_message['videoData']['title']
+        file_name = re.sub(r'[\*"/:?\\|<>]', ' ', file_name)     # 文件不能包含/\|<>*?"等字符
         if os.path.exists(file_name) == False: # 判断是否存在该文件夹
             os.mkdir(file_name)
             
@@ -57,6 +57,7 @@ class GetBv():
     def get_mp4(self):
         # bv_name: 视频名称
         bv_name = self.pg_dic[self.page]
+        bv_name = re.sub(r'[\*"/:?\\|<>]', ' ', bv_name)     # 文件不能包含/\|<>*?"等字符
         path = f'{self.file_name}/{bv_name}'    # 视频路径
         if os.path.exists(f'{bv_name}.mp4'):  # 判断是否存在该视频
             print(f'已存在第{self.page}P视频——{bv_name}.mp4')
